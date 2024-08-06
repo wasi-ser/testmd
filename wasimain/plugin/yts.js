@@ -1,5 +1,5 @@
-import yts from 'yt-search';
-import ytdl from 'ytdl-core';
+import yts from 'github:franceking1/flash-dls';
+import ytdl from '@distube/ytdl-core';
 import pkg, { prepareWAMessageMedia } from '@whiskeysockets/baileys';
 const { generateWAMessageFromContent, proto } = pkg;
 
@@ -79,10 +79,10 @@ const song = async (m, Matrix) => {
                 text: `DON-DEVIL-MD Video Downloader\n\n`
               }),
               footer: proto.Message.InteractiveMessage.Footer.create({
-                text: "© Powered By DEVIL-MD"
+                text: "© Powered ByWASI-MD-V3"
               }),
               header: proto.Message.InteractiveMessage.Header.create({
-                ...(await prepareWAMessageMedia({ image: { url: `https://telegra.ph/file/149eb4625a84a6666958a.jpg` } }, { upload: Matrix.waUploadToServer })),
+                ...(await prepareWAMessageMedia({ image: { url: `https://telegra.ph/file/0633528b6b1fa7ca7f3a0.jpg` } }, { upload: Matrix.waUploadToServer })),
                 title: ``,
                 gifPlayback: true,
                 subtitle: "",
@@ -161,7 +161,7 @@ const song = async (m, Matrix) => {
           const audioStream = ytdl(videoUrl, { filter: 'audioonly', quality: 'highestaudio' });
           const finalAudioBuffer = await streamToBuffer(audioStream);
           
-          await Matrix.sendMessage(m.from, { image: { url: thumbnailUrl }, caption: `Title: ${title}\nAuther: ${author}\nDuration: ${duration}\n> © Powered by DEVIL-MD`}, { quoted: m });
+          await Matrix.sendMessage(m.from, { image: { url: thumbnailUrl }, caption: `Title: ${title}\nAuther: ${author}\nDuration: ${duration}\n> © Powered byWASI-MD-V3`}, { quoted: m });
 
           await Matrix.sendMessage(m.from, { audio: finalAudioBuffer, mimetype: 'audio/mpeg' }, { quoted: m });
         } else {
@@ -169,7 +169,7 @@ const song = async (m, Matrix) => {
           const videoStream = ytdl(videoUrl, { filter: 'audioandvideo', quality: 'highest' });
           const finalVideoBuffer = await streamToBuffer(videoStream);
 
-          await Matrix.sendMessage(m.from, { video: finalVideoBuffer, mimetype: 'video/mp4', caption: `Title: ${title}\nAuther: ${author}\nDuration: ${duration}\n\n> Powered by DEVIL-MD` }, { quoted: m });
+          await Matrix.sendMessage(m.from, { video: finalVideoBuffer, mimetype: 'video/mp4', caption: `Title: ${title}\nAuther: ${author}\nDuration: ${duration}\n\n> Powered by WASI-MD-V3` }, { quoted: m });
         }
       } catch (error) {
         console.error("Error fetching video details:", error);
