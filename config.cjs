@@ -23,7 +23,7 @@ const config = {
   NOT_ALLOW: process.env.NOT_ALLOW !== undefined ? process.env.NOT_ALLOW === 'true' : true,
   MODE: process.env.MODE || "private",
   OWNER_NAME: process.env.OWNER_NAME || "MR WASI DEV",
-  OWNER_NUMBER: process.env.OWNER_NUMBER || "919142294671",
+  OWNER_NUMBER: process.env.OWNER_NUMBER || "923192173398",
   GEMINI_KEY: process.env.GEMINI_KEY || "",
   WELCOME: process.env.WELCOME !== undefined ? process.env.WELCOME === 'true' : false, 
   YTDL_NO_UPDATE: process.env.YTDL_NO_UPDATE !== undefined ? process.env.YTDL_NO_UPDATE === 'true' : true,
