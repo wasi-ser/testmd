@@ -1,5 +1,5 @@
-import yts from 'github:franceking1/flash-dls';
-import ytdl from '@distube/ytdl-core';
+import yts from 'yt-search';
+import ytdl from 'ytdl-core';
 import pkg, { prepareWAMessageMedia } from '@whiskeysockets/baileys';
 const { generateWAMessageFromContent, proto } = pkg;
 
