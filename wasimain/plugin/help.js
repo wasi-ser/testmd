@@ -94,8 +94,8 @@ let mode = ethix.public ? 'public' : 'private';
 > │ 🥀 *ᴜᴘᴛɪᴍᴇ:* 8 m, 10 s
 > │ 🎋 *ʀᴀᴍ ᴜsᴀɢᴇ:* 1.41 GB
 > │🌴 *ᴛɪᴍᴇ:* 11:21:41 pm
-> │ 🪵*ᴅᴀᴛᴇ:* 29/07/2024
-> │ 🪺*ᴄᴏᴍᴍᴀɴᴅs:* 536
+> │ 🪵 *ᴅᴀᴛᴇ:* 29/07/2024
+> │ 🪺 *ᴄᴏᴍᴍᴀɴᴅs:* 536
 > │ 🌚 *ᴜsᴀɢᴇ ᴛʀᴇɴᴅ:* 84
 > │ 🪴 *ᴅᴀᴛᴀʙᴀsᴇ:* 486
 > ╰═══════════════⊷  
@@ -122,22 +122,22 @@ let mode = ethix.public ? 'public' : 'private';
               buttons: [
                 {
                   "name": "single_select",
-                  "buttonParamsJson": `{"title":"🔖𝚻𝚫𝚸 𝐅𝚯𝚪 𝚯𝚸𝚵𝚴 𝚳𝚵𝚴𝐔",
+                  "buttonParamsJson": `{"title":"*TAP HERE FOR COMMAND LIST*",
                  "sections":
                    [{
                     "title":"WASI MD V3 MENU LIST",
-                    "highlight_label":"🤩 𝛥𝐿𝐿𝛭𝛯𝛮𝑈",
+                    "highlight_label":"MAIN-MENU",
                     "rows":[
                       {
                        "header":"",
-                       "title":"🔰 ᴀʟʟ ᴍᴇɴᴜ",
+                       "title":"All menu",
                        "description":" WASI MD V3 MENU",
                        "id":"View All Menu"
                       },
                       {
                         "header":"",
-                        "title":"⬇️ ᴅᴏᴡɴʟᴀᴏᴅᴇʀ ᴍᴇɴᴜ",
-                        "description":"📂𝐒𝚮𝚯𝐖 𝚫𝐋𝐋 𝐃𝚯𝐖𝚴𝐋𝚯𝚫𝐃 𝐅𝚵𝚫𝚻𝐔𝚪𝚵𝐒🗂",
+                        "title":"downloading menu",
+                        "description":"downloader menu",
                         "id":"Downloader Menu"
                       },
                       {
@@ -184,7 +184,7 @@ let mode = ethix.public ? 'public' : 'private';
                       },
                       {
                         "header":"",
-                        "title":"🥏 𝚌𝚘𝚗𝚟𝚎𝚛𝚝𝚎𝚛 𝚖𝚎𝚗𝚞",
+                        "title":"🥏 CONVERTER MENU",
                         "description":"🛷 𝐒𝚮𝚯𝐖 𝚳𝚵 𝐂𝚯𝚴𝛁𝚵𝚪𝚻𝚵𝚪 𝚳𝚵𝚴𝐔",
                         "id":"Converter Menu"
                       }
