@@ -52,14 +52,14 @@ const handleRepoCommand = async (m, Matrix) => {
                   name: "cta_url",
                   buttonParamsJson: JSON.stringify({
                     display_text: "Click Here To Fork",
-                    url: `https://github.com/Ethix-Xsid/Ethix-MD/fork`
+                    url: `https://github.com/Itxxwasi/WASI-MD-V3/fork`
                   })
                 },
                 {
                   name: "cta_url",
                   buttonParamsJson: JSON.stringify({
                     display_text: "Join Our Community",
-                    url: `https://whatsapp.com/channel/0029VaWJMi3GehEE9e1YsI1S`
+                    url: `https://whatsapp.com/channel/0029VaDK8ZUDjiOhwFS1cP2j`
                   })
                 }
               ],
